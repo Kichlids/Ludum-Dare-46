@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7cdf28476b40824f99762aa0947dd27, type: 3}
+  m_Name: Diaper
+  m_EditorClassIdentifier: 
+  itemName: Diaper
+  itemTarget: 1
+  itemType: 1
+  itemReadyness: 1
+  myIcon: {fileID: 21300000, guid: 98f131c5946411c4fa54562ff2fa37d3, type: 3}
+  myIcon_Over: {fileID: 0}
+  myIcon_Under: {fileID: 0}
+  hungerValue: 0
+  thirstValue: 0
+  sanityValue: 0
+  diaperValue: 80
+  attentionValue: 25
+  timeUntilPrepared: 0
+  timeUntilOverPrepared: 9999
+  underPreparedPenaltyAdder: 0
+  overPreparedPenaltyMultiplier: 0
